@@ -24,7 +24,7 @@ spec:
               cpu: 1
               memory: 1Gi
       nodeSelector:
-        role: "group2"
+        asg-group: "group2"
       tolerations:
         - key: "dedicated"
           operator: "Equal"

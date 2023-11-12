@@ -17,14 +17,14 @@ variable "cluster_version" {
 }
 
 variable "nodegroup1_label" {
-  description = "Nodegroup label"
+  description = "Nodegroup1 label"
   type        = string
   default     = "group1"
 }
 
 variable "nodegroup2_label" {
-  description = "Nodegroup label"
+  description = "Nodegroup2 label"
   type        = string
-  default     = "group1"
+  default     = "group2"
 }
 
